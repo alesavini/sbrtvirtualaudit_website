@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Virtual Audit AIFM_gdl-SBRT</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1 class="courier">Virtual Audit AIFM_gdl-SBRT</h1>
+
+<div align="center">
+  <p><img class="border" src="images/figure_front.png" alt="" width="640" height="280"/></p>
+</div> 
+
+<div align="center">
+	<p>Please zip your RTPLAN and RTDOSE (total dose) in a single archive and upload it using the following form:
+  </p>
+</div>
+	
+<div align="center">
+   <form action="upload.php" method="post" enctype="multipart/form-data">
+   <!-- <input type="hidden" name="MAX_FILE_SIZE" value="3" /> -->
+    Select file to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload"/>
+    <input type="submit" value="Upload File" name="submit"/> 
+  </form>
+</div> 
+<div align="center">
+	<p>(MAX FILE SIZE = 15MB)</p>
+</div>
+
+<!--	<?php (phpinfo()) ?> PER FARE LA PROVA CHE PHP FUNZIONI..ma devi rinominare il file in .php--> 
+
+
+</body>
+
+</html>
