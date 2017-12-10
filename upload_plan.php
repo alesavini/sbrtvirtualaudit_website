@@ -38,7 +38,7 @@
 										</form>
 									</div>
 									<div align="center" style="margin-top: 10px">
-										<p>(MAX FILE SIZE = 15MB) <br> Please click upload and wait until page refreshes</p>
+										<p>(MAX FILE SIZE = 15MB) <br> Please click upload and wait until page refreshes.</p>
 									</div>
 										</div>
 								</div>
