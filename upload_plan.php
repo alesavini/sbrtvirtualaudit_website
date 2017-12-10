@@ -28,7 +28,8 @@
 								<h2 class="title"> Upload your plan here </h2>
 								<div class="entry">
 									<p>Please zip your RTPLAN and RTDOSE (total dose) in a single archive and upload it using the following form:</p>
-									<div align="center">
+									<div class="border_asimg">
+									<div align="center" style="margin-top: 14px">
 										<form action="scripts/upload.php" method="post" enctype="multipart/form-data">
 											<!-- <input type="hidden" name="MAX_FILE_SIZE" value="3" /> -->
 											Select file to upload:
@@ -36,10 +37,10 @@
 											<input type="submit" value="Upload File" name="submit"/>
 										</form>
 									</div>
-									<div align="center">
-										<p>(MAX FILE SIZE = 15MB)</p>
+									<div align="center" style="margin-top: 10px">
+										<p>(MAX FILE SIZE = 15MB) <br> Please click upload and wait until page refreshes</p>
 									</div>
-
+										</div>
 								</div>
 							</div>
 							<div style="clear: both;">&nbsp;</div>
