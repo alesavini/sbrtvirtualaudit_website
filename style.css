@@ -272,6 +272,18 @@ img.aligncenter {
 	padding: 10px 0px 0px 0px;
 }
 
+.borderround {
+	border-style: solid;
+	border-width: 1px;
+	padding: 1px 4px;
+	border-radius: 10px;
+}
+
+.border_asimg {
+	border: 6px solid #EEE7DF;
+}
+
+
 .links {
 	display: block;
 	width: 96px;
