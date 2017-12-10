@@ -3,21 +3,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title>AIFM Virtual Audit</title>
-	<meta name="description" content=""/>
-	<meta name="keywords" content=""/>
-	<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css"/>
-	<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
-	<link href="style.css" rel="stylesheet" type="text/css" media="screen"/>
+	<?php include 'head.include.html';?>
 </head>
 
 <body>
 
 	<div id="wrapper">
-		<?php include 'header_body.html';?>
+		<?php include 'header_body.include.html';?>
 		<!-- end #header -->
-		<?php include 'menu_bar.html';?>
+		<?php include 'menu_bar.include.html';?>
 		<!-- end #menu -->
 		<div id="page">
 			<div id="page-bgtop">
@@ -48,7 +42,7 @@
 						<!-- end #content -->
 						<div id="sidebar">
 							<ul>
-								<?php include 'side_news.html';?>
+								<?php include 'side_news.include.html';?>
 							</ul>
 						</div>
 						<!-- end #sidebar -->
@@ -60,7 +54,7 @@
 		<!-- end #page -->
 	</div>
 	<div id="footer">
-		<?php include("footer.html") ?>
+		<?php include("footer.include.html") ?>
 	</div>
 	<!-- end #footer -->
 </body>
